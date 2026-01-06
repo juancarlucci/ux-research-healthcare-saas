@@ -1,0 +1,22 @@
+# Personal journal - private reflections
+journal/
+
+# Screenshots may contain patient data
+resources/screenshots/
+
+# System files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+
+# Notion exports (if you decide to sync)
+notion-exports/
+
+# Environment variables (if needed later)
+.env
+.env.local
+
+# Node modules (if you build artifacts)
+node_modules/
