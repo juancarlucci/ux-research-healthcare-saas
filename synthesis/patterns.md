@@ -37,26 +37,44 @@ Making system state more visible (progress indicators, explicit "required/option
 
 ---
 
-### Pattern 2: Practitioner Assignment Clarity
+### Pattern 2: Practitioner Assignment Clarity ⚠️ CRITICAL
 
 **Observed in:**
 - First patient pass: "Am I booking with Manolo or Dr. Escobar?"
+- Second patient pass: "Why am I getting a massage with Emily? Is Graham doing acupuncture?"
+- Deep exploration: Discovered dual-path system
 
 **Description:**  
-When users select a service, add an add-on, and then see time slots for multiple practitioners, the mental model breaks down. It's unclear whether:
-- The main service is with one practitioner and the add-on with another
-- Both are with the same practitioner
-- The system will assign automatically
+The system has **two completely different booking paths** but only explains one:
+
+**Path 1 (System-Guided):** Location → Service → Date/Time
+- Instruction: "Choose a service first then choose a practitioner"
+- Practitioner is inferred from location (never shown in summary)
+- Creates ongoing uncertainty about "who am I seeing?"
+
+**Path 2 (Hidden):** Direct practitioner selection via image click
+- No instruction provided
+- Practitioner appears immediately with photo + bio
+- Builds confidence early, maintains throughout
+
+**The better path is hidden. The visible instruction contradicts the visual affordance.**
 
 **Impact:**  
-**This is the highest-confidence friction point so far.** In healthcare, "who am I seeing?" is a trust-critical question. Ambiguity here may cause abandonment.
+**CRITICAL TRUST GAP in healthcare context.** 
+
+In healthcare, "who is treating me?" is a primary concern. Path 1 leaves this question unanswered throughout the entire flow. Users must infer practitioner from location.
+
+Path 2 solves this completely but is only discoverable by accident.
+
+**Validation Status:** ✅ **CONFIRMED**  
+- Tested both paths multiple times
+- Pattern repeats consistently
+- Impact on trust validated
+
+**Recommendation Priority:** **P0 - Immediate**
 
 **Hypothesis:**  
-Explicit practitioner assignment (with clear visual/textual confirmation) throughout the flow would eliminate a major trust gap.
-
-**Needs validation:**  
-- Does this confusion repeat in variation passes?
-- How does this work when practitioners are interchangeable vs. when patients have preferences?
+Making both paths explicit ("Do you have a practitioner in mind? [Yes] [Not yet]") and showing practitioner name in Path 1 summary would eliminate the highest-impact trust gap in the current flow.
 
 ---
 
@@ -116,9 +134,9 @@ Questions that need more observation to answer:
 
 | Pattern | Confidence | Evidence | Next Step |
 |---------|-----------|----------|-----------|
-| System state visibility | Medium | 1 pass, multiple moments | Validate in variation passes |
-| Practitioner clarity | High | Strong single moment | Validate immediately |
-| Entry point | Low | Single moment, may be personal | Needs more data |
+| System state visibility | Medium | 1 pass, multiple moments | Validate in practitioner flow |
+| **Practitioner clarity** | **CRITICAL - Validated** | **2 passes, deep exploration, both paths tested** | **Ready for Linear issue** |
+| Entry point | Medium | 2 passes, repeated | May be systemic |
 
 ---
 
