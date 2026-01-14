@@ -9,13 +9,17 @@ This document tracks the Linear issues created from patient portal observations 
 ### DYN-13825: Patient Portal — Hidden vs. Guided Booking Paths Create Practitioner Assignment Confusion
 
 **Priority:** High  
-**Status:** Awaiting Review  
-**Created:** January 6, 2025
+**Status:** Awaiting Review → **Team Validated**  
+**Created:** January 6, 2025  
+**Team Response:** January 13, 2025
 
 **Summary:**  
 Critical finding — the booking portal has two completely different entry paths (guided vs. direct practitioner selection), but only one is explained. The higher-confidence path (direct selection) is hidden, leaving patients uncertain about "who am I seeing?" throughout the booking flow.
 
-**Linear:** https://linear.app/dynabliss/issue/DYN-13825/patient-portal-hidden-vs-guided-booking-paths-create-practitioner
+**Team Validation:**
+José Luis independently reproduced the issue and confirmed the practitioner name doesn't appear in appointment summary throughout Path 1. Discussion ongoing about bringing Path 2 clarity into Path 1 or guiding more users to Path 2.
+
+**Linear:** https://linear.app/dynabliss/issue/DYN-13825/
 
 **Evidence:**
 - [observations/02-patient-variation-critical-findings.md](../observations/02-patient-variation-critical-findings.md)
@@ -26,13 +30,17 @@ Critical finding — the booking portal has two completely different entry paths
 ### DYN-13826: Patient Portal — "Complete Your Forms" Requirement Not Enforced, Creates Ambiguity
 
 **Priority:** Medium  
-**Status:** Awaiting Review  
-**Created:** January 6, 2025
+**Status:** Awaiting Review → **Design Trade-off Identified**  
+**Created:** January 6, 2025  
+**Team Response:** January 13, 2025
 
 **Summary:**  
 The patient portal displays "You need to complete forms" but doesn't enforce this requirement. Patients can book additional appointments without completing forms, creating confusion about what's actually required vs. recommended.
 
-**Linear:** https://linear.app/dynabliss/issue/DYN-13826/patient-portal-complete-your-forms-requirement-not-enforced-creates
+**Team Context:**
+José Luis revealed this is an intentional "soft enforcement" strategy to maximize form completion without forcing abandonment. Discussion ongoing about adding clarity on consequences while preserving the nudge effect.
+
+**Linear:** https://linear.app/dynabliss/issue/DYN-13826/
 
 **Evidence:**
 - [observations/03-patient-post-booking-experience.md](../observations/03-patient-post-booking-experience.md)
@@ -43,13 +51,17 @@ The patient portal displays "You need to complete forms" but doesn't enforce thi
 ### DYN-13827: Patient Portal — That First Moment — Where Do I Actually Start?
 
 **Priority:** Low  
-**Status:** Awaiting Review  
-**Created:** January 6, 2025
+**Status:** Awaiting Review → **Solution Development Active**  
+**Created:** January 6, 2025  
+**Team Response:** January 13, 2025
 
 **Summary:**  
 First-time patients experience slight visual density and competing entry points on the landing page. Multiple elements compete for attention, creating mild cognitive load before the first action. Medium-confidence pattern that may benefit from testing before prioritization.
 
-**Linear:** https://linear.app/dynabliss/issue/DYN-13827/patient-portal-that-first-moment-where-do-i-actually-start
+**Team Collaboration:**
+José Luis and Graham collaboratively explored solutions using Claude. Team consensus emerging around "Option 2" (reframe "Any practitioner" card as "Choose by service" with service-focused subtitle and icon). Yuki agreed on direction.
+
+**Linear:** https://linear.app/dynabliss/issue/DYN-13827/
 
 **Evidence:**
 - [observations/01-patient-first-pass.md](../observations/01-patient-first-pass.md)
