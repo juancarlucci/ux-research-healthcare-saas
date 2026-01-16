@@ -1,4 +1,4 @@
-# AcuBliss Learning Design — Project Playbook
+# HealthFlow Learning Design — Project Playbook
 
 This is your "how we work" guide. Reference this whenever you need clarity on methodology, voice, workflow, or decision-making.
 
@@ -6,10 +6,10 @@ This is your "how we work" guide. Reference this whenever you need clarity on me
 
 ## 🎯 Project Mission
 
-Improve the learning and onboarding experience for AcuBliss (patient portal and practitioner setup) through systematic observation, pattern synthesis, and actionable feedback.
+Improve the learning and onboarding experience for HealthFlow (patient portal and practitioner setup) through systematic observation, pattern synthesis, and actionable feedback.
 
 **Primary goals (ranked):**
-1. Get AcuBliss work done efficiently
+1. Get HealthFlow work done efficiently
 2. Build portfolio evidence of LD/DevEx skills
 3. Create reusable templates for future projects
 4. Demonstrate technical sophistication
@@ -111,7 +111,7 @@ journal/              → Private notes (gitignored)
 - Links to GitHub files
 
 #### **Layer 3: Delivery (Linear)**
-- Actionable issues for AcuBliss team
+- Actionable issues for HealthFlow team
 - Business-level framing
 - Ready for grooming/prioritization
 
@@ -232,13 +232,13 @@ chore(config): add gitignore for sensitive files
 
 ## 💬 Communication Patterns
 
-### **With Graham (CEO):**
+### **With GQ (CEO):**
 - Focus on business value and actionable insights
 - Frame at product/adoption/trust level
 - Linear issues are primary deliverable
 - Offer sync or async (give him control)
 
-### **With José Luis (Engineer):**
+### **With JL (Engineer):**
 - More casual, collaborative tone
 - Can get technical if needed
 - Willing to review process/methodology
@@ -334,7 +334,7 @@ Lead with value, not process. Show what you found, not how hard you worked.
 
 ## 📊 Success Metrics
 
-### **For AcuBliss:**
+### **For HealthFlow:**
 - Actionable Linear issues created
 - Patterns validated and prioritized
 - Business value clearly framed
@@ -378,7 +378,7 @@ Lead with value, not process. Show what you found, not how hard you worked.
 
 **Methodology:**
 - `resources/role-definition.md` (what this role is)
-- `resources/acubliss-context.md` (project background)
+- `resources/HealthFlow-context.md` (project background)
 
 **Current Work:**
 - `synthesis/patterns.md` (emerging themes)
