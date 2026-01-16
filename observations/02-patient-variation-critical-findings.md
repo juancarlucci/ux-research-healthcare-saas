@@ -3,7 +3,7 @@
 **Date:** January 6, 2025  
 **Session Type:** Variation pass with deep exploration  
 **Role:** First-time patient  
-**Environments Tested:** Oakland (GQ) and San Francisco (Emily)
+**Environments Tested:** Oakland (GQ) and San Francisco (EM)
 
 ---
 
@@ -18,7 +18,7 @@ The system has **two completely different entry paths**, but only teaches one of
 1. Location → Service → Date/Time
 2. Practitioner is **inferred** from location (never explicitly chosen)
 3. Practitioner name **never appears** in appointment summary
-4. User must assume: Oakland = GQ, SF = Emily
+4. User must assume: Oakland = GQ, SF = EM
 
 **Mental model implied:**
 "I'm choosing based on service and location. Practitioner doesn't matter or will be assigned."
@@ -58,7 +58,7 @@ In healthcare, **"who is treating me?"** is a primary trust question.
 
 **Path 1 (Any Practitioner):**
 - Practitioner assignment remains invisible throughout flow
-- Creates ongoing uncertainty: "Am I seeing GQ? Emily? Someone else?"
+- Creates ongoing uncertainty: "Am I seeing GQ? EM? Someone else?"
 - Summary never confirms practitioner name
 - User must infer from location
 
@@ -77,7 +77,7 @@ But **Path 2 is hidden**.
 
 Through experimentation, discovered:
 
-**Emily's schedule:**
+**EM's schedule:**
 - Short availability windows (2 hours morning, 2 hours afternoon)
 - Cannot accommodate combo bookings (75min acupuncture + 60min massage = 135min total)
 - System correctly blocks unavailable slots
