@@ -10,7 +10,7 @@ Use this for quick capture during or immediately after a testing session. Raw no
 **Duration:** [fill in after]  
 **Role:** First-time practice owner (acupuncturist opening new clinic)  
 **Scenario:** Registering practice, completing initial setup, evaluating if platform fits needs  
-**Environment:** Production (https://register.acubliss.app/register/)
+**Environment:** Production (https://register.HealthFlow.app/register/)
 
 ---
 
@@ -106,7 +106,7 @@ This might be an opportunity to simplify the post-payment confirmation to a sing
 ### Observation 2: Login Page Speaks to Patients, Not the Practice Owner Who Just Registered
 
 **Context:**  
-As a new practice owner, immediately after completing registration, payment, email verification, and launching my practice, I'm redirected to my practice's login page (jc-test-acupuncture.acubliss.app/login/).
+As a new practice owner, immediately after completing registration, payment, email verification, and launching my practice, I'm redirected to my practice's login page (jc-test-acupuncture.HealthFlow.app/login/).
 
 **Expectation:**  
 I expected to see a message that acknowledged me as the practice owner: "Welcome to your practice, Juan Carlos. Please log in to get started."
@@ -137,7 +137,7 @@ I expected a simple walkthrough or clear indication of how to set up my practice
 **Reality:**
 The practitioner is greeted by a webpage where several items compete for attention: a glowing yellow "November updates" button, a "🐳 Good afternoon Juan Carlos" greeting in large gradient text, a calendar with a prominent "January 2026" heading, blue buttons, and a green notification badge.
 
-However, the "Welcome to AcuBliss!" email gave me two clear tasks: "Start with the Setup Wizard, and then go through the Settings to configure all of the helpful automation features." Both the "Setup Wizard" and "Settings" buttons have lower visual prominence — small font, minimal styling — despite being the most important next steps.
+However, the "Welcome to HealthFlow!" email gave me two clear tasks: "Start with the Setup Wizard, and then go through the Settings to configure all of the helpful automation features." Both the "Setup Wizard" and "Settings" buttons have lower visual prominence — small font, minimal styling — despite being the most important next steps.
 
 **Impact:**
 This creates a moment of overwhelm as I try to process not just the large number of items, but also items that aren't relevant to my current task yet stand out as more visually prominent. After paying for the service and needing to configure my practice, I'm left scanning for what matters most while being distracted by visual noise.
@@ -145,28 +145,28 @@ This creates a moment of overwhelm as I try to process not just the large number
 **Opportunity:**
 This might be an opportunity to simplify the UI for first-time practitioners — either by removing some choices, de-emphasizing decorative elements, and visually prioritizing the two most important tasks: "Setup Wizard" and "Settings."
 
-Alternatively, the initial Dashboard could open directly to the Setup Wizard page (https://jc-test-acupuncture.acubliss.app/practice/settings-wizard/step-1/) as the default landing, until certain setup parameters have been completed.
+Alternatively, the initial Dashboard could open directly to the Setup Wizard page (https://jc-test-acupuncture.HealthFlow.app/practice/settings-wizard/step-1/) as the default landing, until certain setup parameters have been completed.
 
-### Observation 4: Brand Inconsistency (AcuBliss → DynaBliss → Varying Color Schemes)
+### Observation 4: Brand Inconsistency (HealthFlow → DynaFlow → Varying Color Schemes)
 
 **Context:** 
-During initial registration for AcuBliss, the practitioner navigates through five different pages: Registration, Payment Portal, Confirmation, Login, and Dashboard. 
+During initial registration for HealthFlow, the practitioner navigates through five different pages: Registration, Payment Portal, Confirmation, Login, and Dashboard. 
 
 URLs:
 
-Registration (https://register.acubliss.app/register/step-1/)
+Registration (https://register.HealthFlow.app/register/step-1/)
 Payment Portal (https://billing.zohosecure.com/subscribe/...)
-Confirmation (https://www.acubliss.app/almostdone?...)
-Login (https://jc-test-acupuncture.acubliss.app/login/)
-Dashboard (https://jc-test-acupuncture.acubliss.app/practice/dashboard/)
+Confirmation (https://www.HealthFlow.app/almostdone?...)
+Login (https://jc-test-acupuncture.HealthFlow.app/login/)
+Dashboard (https://jc-test-acupuncture.HealthFlow.app/practice/dashboard/)
 
 **Expectation:**
 The styling and brand presence should feel consistent across the entire onboarding experience.
 
 **Reality:**
-The Registration page shows an AcuBliss logo at the top and a DynaBliss logo in the footer, using a blue gradient: linear-gradient(90deg, rgb(34, 64, 88), rgb(56, 103, 143), rgb(34, 64, 88)).
+The Registration page shows an HealthFlow logo at the top and a DynaFlow logo in the footer, using a blue gradient: linear-gradient(90deg, rgb(34, 64, 88), rgb(56, 103, 143), rgb(34, 64, 88)).
 
-The Payment Portal (Zoho) shows a DynaBliss logo at the top (not AcuBliss) and uses a different color scheme: solid rgb(3, 108, 143) for the topbar, footer, and "Order Summary" section — no gradient.
+The Payment Portal (Zoho) shows a DynaFlow logo at the top (not HealthFlow) and uses a different color scheme: solid rgb(3, 108, 143) for the topbar, footer, and "Order Summary" section — no gradient.
 
 The Confirmation page uses two topnav sections with different colors: #0A4A53 (upper) and #046D90 (lower) — neither matching the previous pages.
 
@@ -178,7 +178,7 @@ The Dashboard returns to the original blue gradient used on the Registration pag
 This creates a feeling that the flow is not a seamless, unified whole. It can contribute to the perception that there's a lack of cohesion and polish across the onboarding experience. At critical trust-building moments (payment, launch), visual inconsistency can subtly erode confidence.
 
 **Opportunity:**
-This could be an opportunity to create a more stylistically cohesive onboarding experience by unifying the visual design across all five pages — or at minimum, maintaining consistent brand presence (AcuBliss vs. DynaBliss) and a single color palette throughout the practitioner registration journey.
+This could be an opportunity to create a more stylistically cohesive onboarding experience by unifying the visual design across all five pages — or at minimum, maintaining consistent brand presence (HealthFlow vs. DynaFlow) and a single color palette throughout the practitioner registration journey.
 
 ---
 
@@ -192,7 +192,7 @@ Both flows struggle with **unclear next steps at critical handoff moments** (pat
 Strengths remain consistent: **email communications are clear and helpful**, confirmation flows work well, tone is friendly and supportive.
 
 ### What's new/different this time?
-**Brand and visual inconsistency** is much more visible across the practitioner registration flow — five different pages, three different color schemes, mixed AcuBliss/DynaBliss branding.
+**Brand and visual inconsistency** is much more visible across the practitioner registration flow — five different pages, three different color schemes, mixed HealthFlow/DynaFlow branding.
 
 **Role confusion at login** — the first-time practice owner login page speaks entirely to patients, creating doubt at a critical trust moment.
 
@@ -207,7 +207,7 @@ Practitioner onboarding needs **clearer role acknowledgment and visual prioritiz
 
 - [x] Turn observations into structured format (DONE)
 - [ ] Screenshot calendar behavior bug for Linear issue
-- [ ] Ask José Luis about "November Updates" button (is it stale?)
+- [ ] Ask JL about "November Updates" button (is it stale?)
 - [x] Add patterns to patterns.md (DONE)
 - [ ] Test Setup Wizard in next session
 ---
