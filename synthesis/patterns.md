@@ -40,8 +40,8 @@ Making system state more visible (progress indicators, explicit "required/option
 ### Pattern 2: Practitioner Assignment Clarity ⚠️ CRITICAL
 
 **Observed in:**
-- First patient pass: "Am I booking with Manolo or Dr. Escobar?"
-- Second patient pass: "Why am I getting a massage with Emily? Is GQ doing acupuncture?"
+- First patient pass: "Am I booking with Manolo or Dr. Esno?"
+- Second patient pass: "Why am I getting a massage with EM? Is GQ doing acupuncture?"
 - Deep exploration: Discovered dual-path system
 
 **Description:**  
