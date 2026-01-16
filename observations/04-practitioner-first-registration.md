@@ -15,11 +15,12 @@ Use this for quick capture during or immediately after a testing session. Raw no
 ---
 
 ## Session Goals
-What are you specifically testing/observing?
+What is specifically tested/observed?
 
-- 
-- 
-- 
+- Practitioner registration flow from signup through first login
+- Initial dashboard experience (orientation and next steps)
+- Trust-building moments during onboarding
+- Compare patterns to patient portal experience
 
 ---
 
@@ -32,7 +33,7 @@ What are you specifically testing/observing?
 - "Almost Done" page: Teal color scheme (different)
 - Launch page: Back to blue gradient
 
-**"Almost Done" page feels like kitchen sink:**
+**"Almost Done" page feels like an all-in-one page:**
 - Main message: "Check your email to launch"
 - BUT also offers: Demo booking, "ready to sign up?" (already signed up), full site navigation
 - Too many paths when I just need one: check email
@@ -204,18 +205,19 @@ Practitioner onboarding needs **clearer role acknowledgment and visual prioritiz
 
 ## Follow-up Actions
 
-- [ ] Turn observation X into structured format
-- [ ] Screenshot/record moment Y
-- [ ] Ask José Luis/Graham about Z
-- [ ] Add to patterns.md
-
+- [x] Turn observations into structured format (DONE)
+- [ ] Screenshot calendar behavior bug for Linear issue
+- [ ] Ask José Luis about "November Updates" button (is it stale?)
+- [x] Add patterns to patterns.md (DONE)
+- [ ] Test Setup Wizard in next session
 ---
 
 ## Energy Check
 
 How did this session feel?
-- [ ] Energizing — learned a lot
+- [x] Energizing — learned a lot
 - [ ] Neutral — productive but unremarkable  
 - [ ] Draining — too long or repetitive
 
-**Note for next time:**
+**Note for next time:** 
+This session was ~90 minutes and felt good. Discovered lots of patterns. Could have paused earlier at the dashboard (signs of fatigue). Next time: cap at 60-75 minutes.
