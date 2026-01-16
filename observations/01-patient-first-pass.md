@@ -2,8 +2,8 @@
 
 **Date:** January 5-6, 2025  
 **Role:** First-time patient  
-**Environment:** Production (José Luis's demo practice)  
-**URL:** https://lila.acubliss.app/portal/booking/
+**Environment:** Production (JL's demo practice)  
+**URL:** https://lila.HealthFlow.app/portal/booking/
 
 ---
 
@@ -62,7 +62,7 @@ After selecting a service and add-on, then choosing a date/time.
 I expected the system to be clear about whether I'm booking with a specific practitioner or "any available."
 
 #### Reality
-The interface showed time slots for multiple practitioners simultaneously, and my appointment summary showed "Manolo Del Toro" after I'd selected him for the add-on, but it wasn't immediately clear if the main service was also with Manolo or with Dr. Jose Escobar (whose name appeared in other contexts).
+The interface showed time slots for multiple practitioners simultaneously, and my appointment summary showed "Manolo Del Toro" after I'd selected him for the add-on, but it wasn't immediately clear if the main service was also with Manolo or with Dr. Escob (whose name appeared in other contexts).
 
 #### Impact
 **Biggest confusion moment.** This creates uncertainty about "who am I actually seeing?" which matters enormously for trust in healthcare. Patients may abandon or lose confidence at this point.
