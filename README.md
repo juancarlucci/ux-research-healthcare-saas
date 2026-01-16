@@ -1,12 +1,12 @@
-# AcuBliss Learning Design Project
+# HealthFlow Learning Design Project
 
-> **A structured approach to Learning Design and Developer Experience (DevEx) research for AcuBliss patient portal and practitioner onboarding.**
+> **A structured approach to Learning Design and Developer Experience (DevEx) research for HealthFlow patient portal and practitioner onboarding.**
 
 ---
 
 ## Project Overview
 
-This repository documents my work improving the learning and onboarding experience for AcuBliss, a practice management platform for acupuncturists and holistic healthcare practitioners.
+This repository documents my work improving the learning and onboarding experience for HealthFlow, a practice management platform for acupuncturists and holistic healthcare practitioners.
 
 **Role:** Learning Designer / Developer Experience Researcher  
 **Timeline:** January 2025 - Ongoing  
@@ -16,7 +16,7 @@ This repository documents my work improving the learning and onboarding experien
 
 ## What This Project Does
 
-I'm observing how AcuBliss teaches itself to users, identifying where understanding breaks down, and translating findings into actionable product improvements.
+I'm observing how HealthFlow teaches itself to users, identifying where understanding breaks down, and translating findings into actionable product improvements.
 
 **Key activities:**
 - Structured user observation (patient and practitioner flows)
@@ -36,7 +36,7 @@ I'm observing how AcuBliss teaches itself to users, identifying where understand
 ├── artifacts/            # Final deliverables
 ├── resources/            # Context and reference docs
 │   ├── role-definition.md
-│   └── acubliss-context.md
+│   └── HealthFlow-context.md
 └── journal/              # Personal notes (gitignored)
 ```
 
@@ -107,7 +107,7 @@ See [`synthesis/patterns.md`](synthesis/patterns.md) for full analysis.
 
 ---
 
-## How This Work Supports AcuBliss
+## How This Work Supports HealthFlow
 
 **Immediate value:**
 - Patient portal improvements based on real user friction
