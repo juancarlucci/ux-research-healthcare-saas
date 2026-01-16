@@ -9,7 +9,7 @@ Use this for quick capture during or immediately after a testing session. Raw no
 **Date:**  
 **Duration:**  
 **Role:** [Patient / Practitioner / Returning User]  
-**Scenario:** [e.g., "First-time patient booking with Graham, no add-ons"]  
+**Scenario:** [e.g., "First-time patient booking with GQ, no add-ons"]  
 **Environment:** [Demo / Staging / Production]
 
 ---
@@ -76,7 +76,7 @@ System responses you didn't anticipate?
 
 - [ ] Turn observation X into structured format
 - [ ] Screenshot/record moment Y
-- [ ] Ask José Luis/Graham about Z
+- [ ] Ask JL/GQ about Z
 - [ ] Add to patterns.md
 
 ---
