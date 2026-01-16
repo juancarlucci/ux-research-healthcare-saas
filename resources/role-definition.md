@@ -1,10 +1,10 @@
 # Learning Design / Developer Experience Role Definition
 
 ## Context
-This document defines my role and approach for AcuBliss, as Learning Design / Developer Relations engineer.
+This document defines my role and approach for HealthFlow, as Learning Design / Developer Relations engineer.
 
 ## Role Overview
-I'm working at the intersection of **Learning Design**, **Developer Experience (DevEx)**, and **systems thinking** to improve how AcuBliss teaches itself to both practitioners and patients.
+I'm working at the intersection of **Learning Design**, **Developer Experience (DevEx)**, and **systems thinking** to improve how HealthFlow teaches itself to both practitioners and patients.
 
 ## What I Do
 
@@ -16,7 +16,7 @@ I'm working at the intersection of **Learning Design**, **Developer Experience (
 - **Create actionable feedback**: Bridge user experience → product decisions → engineering
 
 ### Key Questions I'm Answering
-1. How does AcuBliss teach itself?
+1. How does HealthFlow teach itself?
 2. Where do users gain or lose confidence?
 3. What's the difference between *functional* and *learnable*?
 4. How can onboarding reduce friction without adding complexity?
@@ -37,7 +37,7 @@ I'm working at the intersection of **Learning Design**, **Developer Experience (
 
 ## Value Proposition
 
-### For AcuBliss
+### For HealthFlow
 - Improve patient portal onboarding
 - Reduce practitioner setup friction
 - Increase confidence at critical moments
@@ -52,11 +52,11 @@ I'm working at the intersection of **Learning Design**, **Developer Experience (
 
 ## Alignment with Team
 
-### What Graham Asked For
+### What GQ Asked For
 "Test it out as a practice patient... we're revamping the patient portal and could use some feedback... organize a Linear issue with it all."
 
-### What José Luis Asked For
-"Use AcuBliss como si fueras un usuario real... tu mirada fresca y tu experiencia en frontend/UX para detectar cosas que a nosotros ya se nos pasan."
+### What JL Asked For
+"Use HealthFlow como si fueras un usuario real... tu mirada fresca y tu experiencia en frontend/UX para detectar cosas que a nosotros ya se nos pasan."
 
 ### What I'm Delivering
 Structured, learning-oriented feedback that:
