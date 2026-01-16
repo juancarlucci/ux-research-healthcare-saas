@@ -112,9 +112,9 @@ With a "Complete your forms" button.
 
 **Noticed throughout:**
 URLs contain `/demopractice/`:
-- `https://demopractice.acubliss.app/portal/`
-- `https://demopractice.acubliss.app/login/`
-- `https://demopractice.acubliss.app/portal/pages/appointments/`
+- `https://demopractice.HealthFlow.app/portal/`
+- `https://demopractice.HealthFlow.app/login/`
+- `https://demopractice.HealthFlow.app/portal/pages/appointments/`
 
 **As a patient:** Why does the URL say "demopractice"?
 
