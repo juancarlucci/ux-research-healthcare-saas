@@ -36,7 +36,7 @@ I'm observing how HealthFlow teaches itself to users, identifying where understa
 ├── artifacts/            # Final deliverables
 ├── resources/            # Context and reference docs
 │   ├── role-definition.md
-│   └── HealthFlow-context.md
+│   └── healthflow-context.md
 └── journal/              # Personal notes (gitignored)
 ```
 
@@ -147,4 +147,4 @@ This repository is private during active work. May be made public as a portfolio
 
 ---
 
-**Last Updated:** January 6, 2025
+**Last Updated:** January 13, 2026
