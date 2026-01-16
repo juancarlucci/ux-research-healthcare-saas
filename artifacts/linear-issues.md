@@ -19,7 +19,7 @@ Critical finding — the booking portal has two completely different entry paths
 **Team Validation:**
 JL independently reproduced the issue and confirmed the practitioner name doesn't appear in appointment summary throughout Path 1. Discussion ongoing about bringing Path 2 clarity into Path 1 or guiding more users to Path 2.
 
-**Linear:** https://linear.app/DynaFlow/issue/DYN-13825/
+**Linear:** - Issue DYN-13825: [Patient Portal: Hidden vs. Guided Booking Paths Create Practitioner Assignment Confusion]
 
 **Evidence:**
 - [observations/02-patient-variation-critical-findings.md](../observations/02-patient-variation-critical-findings.md)
@@ -40,7 +40,9 @@ The patient portal displays "You need to complete forms" but doesn't enforce thi
 **Team Context:**
 JL revealed this is an intentional "soft enforcement" strategy to maximize form completion without forcing abandonment. Discussion ongoing about adding clarity on consequences while preserving the nudge effect.
 
-**Linear:** https://linear.app/DynaFlow/issue/DYN-13826/
+**Linear:** - Issue DYN-13826: [Patient Portal: "Complete Your Forms" Requirement Not Enforced, Creates Ambiguity]
+ 
+- Issue DYN-13827: [Patient Portal: That First Moment — Where Do I Actually Start?]
 
 **Evidence:**
 - [observations/03-patient-post-booking-experience.md](../observations/03-patient-post-booking-experience.md)
@@ -61,7 +63,7 @@ First-time patients experience slight visual density and competing entry points 
 **Team Collaboration:**
 JL and GQ collaboratively explored solutions using Claude. Team consensus emerging around "Option 2" (reframe "Any practitioner" card as "Choose by service" with service-focused subtitle and icon). YA agreed on direction.
 
-**Linear:** https://linear.app/DynaFlow/issue/DYN-13827/
+**Linear:** - Issue DYN-13827: [Patient Portal: That First Moment — Where Do I Actually Start?]
 
 **Evidence:**
 - [observations/01-patient-first-pass.md](../observations/01-patient-first-pass.md)
