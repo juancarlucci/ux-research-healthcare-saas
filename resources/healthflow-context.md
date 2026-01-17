@@ -9,10 +9,10 @@ HealthFlow is a comprehensive practice management platform for acupuncturists an
 - **Herbal Dispensary Management**
 
 ## Team
-- **GQ** (CEO) - Former student of mine from Chinese medicine program, founder
+- **GQ** (CEO) - founder
 - **JL** (Engineer) - Backend/frontend, technical lead
 - **LC** (Engineer) - Development
-- **Y** (QA) - Quality assurance
+- **YA** (QA) - Quality assurance
 
 ## Primary Users
 1. **Practitioners** (acupuncturists, chiropractors, holistic health professionals)
