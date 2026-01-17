@@ -155,7 +155,7 @@ During initial registration for HealthFlow, the practitioner navigates through f
 URLs:
 
 Registration (https://register.HealthFlow.app/register/step-1/)
-Payment Portal (https://billing.zohosecure.com/subscribe/...)
+Payment Portal (https://billing.healthflow.com/...)
 Confirmation (https://www.HealthFlow.app/almostdone?...)
 Login (https://jc-test-acupuncture.HealthFlow.app/login/)
 Dashboard (https://jc-test-acupuncture.HealthFlow.app/practice/dashboard/)
