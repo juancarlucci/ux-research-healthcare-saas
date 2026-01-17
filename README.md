@@ -1,6 +1,6 @@
-# HealthFlow Learning Design Project
+# HealthFlow: Learning Design & DevEx Research
 
-> **A structured approach to Learning Design and Developer Experience (DevEx) research for HealthFlow patient portal and practitioner onboarding.**
+> I treat practitioner onboarding like a developer ecosystem—focusing on documentation clarity, system state visibility, and reducing the "time to first value."
 
 ---
 
@@ -8,8 +8,11 @@
 
 This repository documents my work improving the learning and onboarding experience for HealthFlow, a practice management platform for acupuncturists and holistic healthcare practitioners.
 
+I apply Developer Experience (DevEx) principles—like reducing cognitive load and improving documentation discovery—to the practitioner onboarding experience.
+
 **Role:** Learning Designer / Developer Experience Researcher  
 **Timeline:** January 2025 - Ongoing  
+**Context:** Improving the bridge between complex clinical workflows and intuitive user software.
 **Focus Areas:** Patient portal booking flows, practitioner onboarding
 
 ---
