@@ -155,7 +155,7 @@ During initial registration for HealthFlow, the practitioner navigates through f
 URLs:
 
 Registration (https://register.HealthFlow.app/register/step-1/)
-Payment Portal (https://billing.healthflow.com/...)
+Payment Portal (https://billing.healthflow.com/)
 Confirmation (https://www.HealthFlow.app/almostdone?...)
 Login (https://jc-test-acupuncture.HealthFlow.app/login/)
 Dashboard (https://jc-test-acupuncture.HealthFlow.app/practice/dashboard/)
@@ -166,7 +166,7 @@ The styling and brand presence should feel consistent across the entire onboardi
 **Reality:**
 The Registration page shows an HealthFlow logo at the top and a DynaFlow logo in the footer, using a blue gradient: linear-gradient(90deg, rgb(34, 64, 88), rgb(56, 103, 143), rgb(34, 64, 88)).
 
-The Payment Portal (Zoho) shows a DynaFlow logo at the top (not HealthFlow) and uses a different color scheme: solid rgb(3, 108, 143) for the topbar, footer, and "Order Summary" section — no gradient.
+The Payment Portal shows a DynaFlow logo at the top (not HealthFlow) and uses a different color scheme: solid rgb(3, 108, 143) for the topbar, footer, and "Order Summary" section — no gradient.
 
 The Confirmation page uses two topnav sections with different colors: #0A4A53 (upper) and #046D90 (lower) — neither matching the previous pages.
 
