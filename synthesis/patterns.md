@@ -233,13 +233,13 @@ Questions that need more observation to answer:
 
 | Pattern | Confidence | Evidence | Status |
 |---------|-----------|----------|--------|
-| **System state visibility** | **CRITICAL - Validated** | **4 observations, both user types** | **Ready for Linear issue** |
+| **System state visibility** | **CRITICAL - Validated** | **5 observations, both user types** | **Ready for Linear issue** |
 | **Practitioner clarity** | **CRITICAL - Validated** | **3 observations, team validated** | **In progress (DYN-13825)** |
 | Entry point | Medium | 3 observations | **Linear issue created (DYN-13827)** |
 | **Role confusion** | **High** | **2 observations, practitioner-specific** | **Ready for Linear issue** |
-| **Visual hierarchy** | **High** | **1 observation, clear evidence** | **Ready for Linear issue** |
+| **Visual hierarchy** | **High** | **2 observations (dashboard + contrast with wizard)** | **Ready for Linear issue** |
 | Brand consistency | Medium | 1 observation | Needs validation |
-
+| **Good onboarding hidden** | **CRITICAL - Validated** | **2 observations (dashboard vs wizard)** | **Ready for Linear issue (HIGH IMPACT, LOW EFFORT)** |
 ---
 
 ## Next Synthesis Checkpoint
