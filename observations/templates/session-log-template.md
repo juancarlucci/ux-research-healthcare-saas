@@ -6,70 +6,93 @@ Use this for quick capture during or immediately after a testing session. Raw no
 
 ## Session Info
 
-**Date:**  
-**Duration:**  
-**Role:** [Patient / Practitioner / Returning User]  
-**Scenario:** [e.g., "First-time patient booking with GQ, no add-ons"]  
-**Environment:** [Demo / Staging / Production]
-
----
+**Date:** January 14, 2026  
+**Duration:** [fill in after]  
+**Role:** First-time practice owner (continuing from registration)  
+**Scenario:** Exploring Setup Wizard to configure practice for first time  
+**Environment:** Production (jc-test-acupuncture.acubliss.app)
 
 ## Session Goals
-What are you specifically testing/observing?
-
-- 
-- 
-- 
-
----
-
-## Raw Notes
-
-### First Impressions
-What do you notice immediately?
-
-
-### Moments of Hesitation
-Where did you pause, hover, or feel uncertain?
-
-- 
-- 
-- 
-
-### Moments of Clarity
-Where did things click? When did confidence increase?
-
-- 
-- 
-- 
-
-### Questions That Arose
-What questions formed in your mind as a user?
-
-- 
-- 
-- 
-
-### Unexpected Behaviors
-System responses you didn't anticipate?
-
-- 
-- 
-- 
+- Test if Setup Wizard addresses dashboard orientation gap
+- Observe configuration flow (what's required, what's guided)
+- Document friction points in practice setup
+- Compare to dashboard's visual hierarchy issues
 
 ---
 
-## Quick Synthesis (End of Session)
+### Setup Wizard — Steps 1-2
 
-### What repeated from previous sessions?
+**STRENGTHS:**
+- Clear 6-step structure in sidebar
+- Helpful contextual info boxes
+- Pre-filled data from registration
+- Cleaner visual design than dashboard
+- Help resources (?, Watch video)
 
+**FRICTION POINT 1: Field Validation**
+- Abbreviated name has 10-char limit
+- Field turns blue even when over limit
+- Error only shows on save attempt
+- Need: Real-time validation + character counter
 
-### What's new/different this time?
+**FRICTION POINT 2: Wizard "Back" Button Breaks Flow**
+- After saving Step 2 (Services), clicked "Back" to review
+- Got message: "You have already added services... Exit wizard"
+- Only options: Exit wizard OR go to settings page
+- NO option to continue wizard
+- Expected: Be able to review previous steps without exiting
 
+**FRICTION POINT 3: Forced Exit Creates Confusion**
+- Forced to exit wizard at Step 2
+- Now on Services settings page
+- Uncertain: "Did I finish the wizard? What steps remain? How do I resume?"
 
-### Biggest takeaway (one sentence):
+**FRICTION POINT 4: "No category" Header**
+- Large text "No category" at top of services section
+- Not clickable, no explanation
+- Questions: "What are categories? How to create? Are they required?"
 
+---
 
+### Setup Wizard — Steps 3-6 (Resumed via Sidebar)
+
+**DISCOVERY: Wizard can be resumed from sidebar**
+- After "exit wizard" modal, Steps 3-6 still clickable in sidebar
+- Not obvious — modal implies you must exit
+- Could continue wizard by clicking Step 3
+
+**Step 3: Staff — Complex but Discoverable**
+- Practice owner roles: Manager/Admin/Practitioner (some locked)
+- Admin = master switch (unlocks Biller, Inventory)
+- Practitioner role = permanent (can't be removed)
+- Front Office greyed out for practice owner
+- Additional practitioner: All roles toggleable except Front Office
+- Staff (non-practitioner): Can't be Practitioner or Admin
+- Helpful warning: "$25/month charge for additional practitioners"
+- Overall: Had questions but could figure it out
+
+**Step 4: Schedule — Straightforward**
+- Clear options for online booking, gaps, overlapping appointments
+- Notification customization (email + SMS reminders)
+- Insurance questions toggle
+- No friction
+
+**Step 5: Work Hours — Clear**
+- Helpful note: "Setting YOUR hours, can set others later"
+- Start/end time, office, repeat pattern, services
+- Intuitive
+
+**Step 6: Product Vendors — Detailed but Clear**
+- Activate vendors one-by-one
+- Markup, tax, partial sales, practitioner rec settings
+- "Complete Activation" button per vendor
+- No friction
+
+**Completion Screen — Good Next Steps**
+- "Looks like we're all set up!"
+- 5 clear next actions (policies, import data, schedule, service rules, help)
+- Configure policies highlighted (primary CTA)
+- Well-designed transition
 ---
 
 ## Follow-up Actions
