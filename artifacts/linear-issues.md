@@ -72,6 +72,32 @@ JL and GQ collaboratively explored solutions using Claude. Team consensus emergi
 
 ---
 
+### DYN-13913: Practitioner Onboarding — Auto-Redirect to Setup Wizard After First Login
+
+**Priority:** High  
+**Status:** Triage/Waiting  
+**Created:** January 15, 2026  
+
+**Summary:**  
+The Setup Wizard is well-designed and provides excellent structured onboarding for new practice owners — but it's hidden behind a cluttered dashboard. New practitioners land on visual chaos after first login instead of being guided to the good onboarding that already exists.
+
+**Key Finding:**  
+This is a **sequencing problem, not a quality problem.** The product demonstrates it knows how to create effective onboarding. It's just presented in the wrong order.
+
+**Recommendation:**  
+Auto-redirect new practitioners to Setup Wizard after first login (routing change, not rebuild). After wizard completion, then show dashboard — at which point they'll have context.
+
+**Impact:** High impact, low effort — leverages existing good work.
+
+**Linear:** DYN-13913: [Practitioner Onboarding — Auto-Redirect to Setup Wizard After First Login]
+
+**Evidence:**
+- [observations/04-practitioner-first-registration.md](../observations/04-practitioner-first-registration.md)
+- [observations/05-practitioner-setup-wizard.md](../observations/05-practitioner-setup-wizard.md)
+- [synthesis/patterns.md - Pattern 7](../synthesis/patterns.md)
+
+---
+
 ## Issue Status Legend
 
 - **Awaiting Review:** Created, waiting for team grooming
