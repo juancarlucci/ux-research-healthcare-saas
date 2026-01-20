@@ -48,7 +48,7 @@ Making system state and user role more visible (progress indicators, explicit ro
 
 **Observed in:**
 - First patient pass: "Am I booking with Manolo or Dr. Escobar?"
-- Second patient pass: "Why am I getting a massage with Emily? Is Graham doing acupuncture?"
+- Second patient pass: "Why am I getting a massage with Emily? Is GQ doing acupuncture?"
 - Deep exploration: Discovered dual-path system
 
 **Description:**  
