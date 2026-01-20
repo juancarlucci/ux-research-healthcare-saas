@@ -10,7 +10,7 @@ Use this for quick capture during or immediately after a testing session. Raw no
 **Duration:** ~90 minutes  
 **Role:** First-time practice owner (continuing from registration)  
 **Scenario:** Exploring Setup Wizard to configure practice for first time  
-**Environment:** Production (jc-test-acupuncture.acubliss.app)
+**Environment:** Production (jc-test-acupuncture.healthflow.app)
 
 ---
 
@@ -31,7 +31,7 @@ What are you specifically testing/observing?
 **Visual Design:**
 - Clean, white background with black text
 - Different styling from dashboard (simpler, clearer)
-- AcuBliss logo in blue on left sidebar
+- HealthFlow logo in blue on left sidebar
 - 6-step structure clearly visible
 
 **First feeling:** Looks good, simple, well-structured
@@ -63,7 +63,7 @@ Services are required for scheduling patients. Consider naming them so patients 
 
 **Experience:** Straightforward, made sense, no friction
 
-**URL when office added:** https://jc-test-acupuncture.acubliss.app/practice/settings/offices/
+**URL when office added:** https://jc-test-acupuncture.healthflow.app/practice/settings/offices/
 
 ---
 
@@ -93,8 +93,8 @@ Services are required for scheduling patients. Consider naming them so patients 
 3. Got modal: "You have already added services to your practice. Go to services settings page to continue editing. Exit set up wizard"
 
 **Only two options:**
-- "Exit set up wizard" → Takes to dashboard (https://jc-test-acupuncture.acubliss.app/practice/dashboard/)
-- "Go to services settings page to continue editing" → Takes to services settings (https://jc-test-acupuncture.acubliss.app/practice/settings/services/)
+- "Exit set up wizard" → Takes to dashboard (https://jc-test-acupuncture.healthflow.app/practice/dashboard/)
+- "Go to services settings page to continue editing" → Takes to services settings (https://jc-test-acupuncture.healthflow.app/practice/settings/services/)
 
 **NO option to continue wizard**
 
@@ -232,7 +232,7 @@ This **disables the "Save and continue" button** until acknowledged.
 ### Step 6: Activating Product Vendors
 
 **Guidance:**
-"AcuBliss has many of your favorite herbal and supplement vendors with all of their products 'baked' into the software, allowing you to initialize inventory and most importantly, prescribe products with ease. Activate only the vendors who's products you intend to prescribe or carry, and once you have done so, you may further edit and create purchase orders and more outside of the wizard."
+"HealthFlow has many of your favorite herbal and supplement vendors with all of their products 'baked' into the software, allowing you to initialize inventory and most importantly, prescribe products with ease. Activate only the vendors who's products you intend to prescribe or carry, and once you have done so, you may further edit and create purchase orders and more outside of the wizard."
 
 **For each vendor:**
 - Company name (e.g., "Evergreen Herbs & Medical Supplies LLC")
@@ -259,11 +259,11 @@ This **disables the "Save and continue" button** until acknowledged.
 5. "Go to help page"
 
 **Links:**
-- https://jc-test-acupuncture.acubliss.app/practice/settings/policies/
-- https://jc-test-acupuncture.acubliss.app/practice/settings/import/
-- https://jc-test-acupuncture.acubliss.app/practice/settings/schedule/
-- https://jc-test-acupuncture.acubliss.app/practice/settings/service-rules/
-- https://help.acubliss.app/en/
+- https://jc-test-acupuncture.healthflow.app/practice/settings/policies/
+- https://jc-test-acupuncture.healthflow.app/practice/settings/import/
+- https://jc-test-acupuncture.healthflow.app/practice/settings/schedule/
+- https://jc-test-acupuncture.healthflow.app/practice/settings/service-rules/
+- https://help.healthflow.app/en/
 
 **Experience:** Well-designed transition, clear direction without overwhelming
 
@@ -405,7 +405,7 @@ However, the wizard **significantly reduces** this pattern compared to dashboard
 
 ### Biggest takeaway (one sentence):
 
-The Setup Wizard demonstrates that AcuBliss **knows how to create good onboarding experiences** — making it the default first experience (instead of starting at the cluttered dashboard) would significantly improve practitioner confidence and reduce setup friction.
+The Setup Wizard demonstrates that HealthFlow **knows how to create good onboarding experiences** — making it the default first experience (instead of starting at the cluttered dashboard) would significantly improve practitioner confidence and reduce setup friction.
 
 ---
 

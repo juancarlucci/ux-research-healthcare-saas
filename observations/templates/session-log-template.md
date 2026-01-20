@@ -10,7 +10,7 @@ Use this for quick capture during or immediately after a testing session. Raw no
 **Duration:** [fill in after]  
 **Role:** First-time practice owner (continuing from registration)  
 **Scenario:** Exploring Setup Wizard to configure practice for first time  
-**Environment:** Production (jc-test-acupuncture.acubliss.app)
+**Environment:** Production (jc-test-acupuncture.healthflow.app)
 
 ## Session Goals
 - Test if Setup Wizard addresses dashboard orientation gap
