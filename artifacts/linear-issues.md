@@ -125,7 +125,7 @@ Restructure visual hierarchy to prioritize Setup Wizard as focal point. Alternat
 
 ---
 
-### DYN-[13927]: Practitioner Login — Page Speaks to Patients Instead of Practice Owner After Registration
+### DYN-13927: Practitioner Login — Page Speaks to Patients Instead of Practice Owner After Registration
 
 **Priority:** Medium  
 **Status:** Triage/Waiting  
@@ -142,7 +142,7 @@ Context-aware messaging for first-time practice owner login, or visual separatio
 
 **Impact:** Medium — affects trust at critical handoff after payment.
 
-**Linear:** DYN-[13927]: [Practitioner Login — Page Speaks to Patients Instead of Practice Owner After Registration]
+**Linear:** DYN-13927: [Practitioner Login — Page Speaks to Patients Instead of Practice Owner After Registration]
 
 **Evidence:**
 - [observations/04-practitioner-first-registration.md](../observations/04-practitioner-first-registration.md)
