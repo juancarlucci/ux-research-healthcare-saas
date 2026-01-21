@@ -98,6 +98,33 @@ Auto-redirect new practitioners to Setup Wizard after first login (routing chang
 
 ---
 
+### DYN-13924: Practitioner Dashboard — Visual Hierarchy Creates Cognitive Overload on First Login
+
+**Priority:** Medium  
+**Status:** Triage/Waiting  
+**Created:** January 15, 2026  
+
+**Summary:**  
+After first login, the practitioner dashboard presents multiple competing visual elements (stale "November Updates" button, oversized text, badges) while the critical next steps (Setup Wizard, Settings) have minimal visual weight. Creates cognitive overload when clarity is needed most.
+
+**Key Finding:**  
+The two most important actions have the least visual prominence. Practice owners must scan through visual noise to find what actually matters.
+
+**Recommendation:**  
+Restructure visual hierarchy to prioritize Setup Wizard as focal point. Alternative: Auto-redirect (see DYN-13913).
+
+**Impact:** Medium-high — affects first impression and onboarding confidence.
+
+**Linear:** DYN-13924: [Practitioner Dashboard — Visual Hierarchy Creates Cognitive Overload on First Login]
+
+**Evidence:**
+- [observations/04-practitioner-first-registration.md](../observations/04-practitioner-first-registration.md)
+- [synthesis/patterns.md - Pattern 5](../synthesis/patterns.md)
+
+**Related:** DYN-13913 (Auto-redirect addresses same problem)
+
+---
+
 ## Issue Status Legend
 
 - **Awaiting Review:** Created, waiting for team grooming
