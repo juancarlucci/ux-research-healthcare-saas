@@ -125,6 +125,33 @@ Restructure visual hierarchy to prioritize Setup Wizard as focal point. Alternat
 
 ---
 
+### DYN-[13927]: Practitioner Login — Page Speaks to Patients Instead of Practice Owner After Registration
+
+**Priority:** Medium  
+**Status:** Triage/Waiting  
+**Created:** January 15, 2026  
+
+**Summary:**  
+After completing registration and launching their practice, new practice owners land on a login page with entirely patient-facing messaging ("make your next appointment, view existing appointments"). No acknowledgment of their role as practice owner.
+
+**Key Finding:**  
+Creates doubt at critical trust moment: "Am I in the right place? Is this how practitioners log in?"
+
+**Recommendation:**  
+Context-aware messaging for first-time practice owner login, or visual separation between practice owner/staff login and patient access.
+
+**Impact:** Medium — affects trust at critical handoff after payment.
+
+**Linear:** DYN-[13927]: [Practitioner Login — Page Speaks to Patients Instead of Practice Owner After Registration]
+
+**Evidence:**
+- [observations/04-practitioner-first-registration.md](../observations/04-practitioner-first-registration.md)
+- [synthesis/patterns.md - Pattern 4](../synthesis/patterns.md)
+
+**Related:** Part of broader System State Visibility Gap pattern (Pattern 1)
+
+---
+
 ## Issue Status Legend
 
 - **Awaiting Review:** Created, waiting for team grooming
