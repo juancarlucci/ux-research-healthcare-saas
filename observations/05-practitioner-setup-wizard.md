@@ -1,7 +1,4 @@
-# Session Log Template
-
-Use this for quick capture during or immediately after a testing session. Raw notes that you'll later synthesize into structured observations.
-
+# Practitioner Setup Wizazrd - First pass
 ---
 
 ## Session Info
