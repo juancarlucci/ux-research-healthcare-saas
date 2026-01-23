@@ -81,6 +81,12 @@ Path 2 solves this completely but is only discoverable by accident.
 - **Team validated independently (JL reproduced issue)**
 
 **Recommendation Priority:** **P0 - Immediate** (Currently being addressed by team)
+
+**Grooming Session Update (Jan 22, 2026):**
+Team conducted 1.5-hour deep dive on this finding. Resulted in major redesign decision: simplify patient portal to 3 primary options (practitioner, service, login) and remove unnecessary initial screen elements. GQ noted inspiration from high-end software design (Square). Design philosophy validated: "elegant design reduces cognitive stress."
+
+**Status:** Pattern validated, solution approved, moving to implementation.
+
 ---
 
 ### Pattern 3: Entry Point Discoverability
