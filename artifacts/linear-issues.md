@@ -11,9 +11,9 @@ This document tracks the Linear issues created from patient portal observations 
 **Priority:** High   
 **Created:** January 6, 2025  
 **Team Response (Jan 22, 2026 Grooming):**
-Major redesign approved based on this finding. Team decided to simplify initial booking screen to 3 primary options: choose practitioner, choose service, or login. Removed unnecessary elements to reduce cognitive friction. Graham noted inspiration from Square's design approach. Discussion lasted 1.5 hours - validated the dual-path confusion as strategic priority.
+Major redesign approved based on this finding. Team decided to simplify initial booking screen to 3 primary options: choose practitioner, choose service, or login. Removed unnecessary elements to reduce cognitive friction. GQ noted inspiration from Square's design approach. Discussion lasted 1.5 hours - validated the dual-path confusion as strategic priority.
 **Status:** In Progress - Design Implementation
-**Assigned:** JL (refine design), Yuki (document modifications), Graham (review implementation)
+**Assigned:** JL (refine design), YA (document modifications), GQ (review implementation)
 
 **Summary:**  
 Critical finding — the booking portal has two completely different entry paths (guided vs. direct practitioner selection), but only one is explained. The higher-confidence path (direct selection) is hidden, leaving patients uncertain about "who am I seeing?" throughout the booking flow.
