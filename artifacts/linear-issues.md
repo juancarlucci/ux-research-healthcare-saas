@@ -163,3 +163,30 @@ Context-aware messaging for first-time practice owner login, or visual separatio
 ---
 
 **Last Updated:** January 6, 2025
+
+---
+
+### DYN-14051: Not Binding Our Patients
+
+**Priority:** Must Ship  
+**Status:** Triage/Waiting  
+**Created:** February 3, 2026  
+
+**Summary:**  
+Patient registration flow uses intimidating legal language ("bound by them", "Authorization of Disclosure of Personal Data") that creates unnecessary anxiety during account creation.
+
+**Recommendations Adopted:**
+- "you agree to be bound by them" → "you accept the terms described in them"
+- "Authorization of Disclosure of Personal Data" → "How We Handle Your Information"  
+- "This Authorization will remain in effect until 2050" → "This stays active until you update it."
+- "I accept" button → "Yes, I agree"
+
+**Impact:** Reduces patient anxiety at critical trust moment (account creation).
+
+**Linear:** DYN-14051: [Not Binding Our Patients] created by YA
+
+**Team Response:**  
+GQ: "Super valuable recommendations — I vote for these!"  
+Marked as "must ship" priority.
+
+**Contribution Type:** UX Copy / Language Clarity
